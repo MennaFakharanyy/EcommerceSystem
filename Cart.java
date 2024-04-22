@@ -64,14 +64,8 @@ public class Cart {
         }
         return totalPrice;
     }
-   
-   /* public void placeOrder(int orderId){
-   Order order = new Order( customerId, orderId, products, calculatePrice());
-  
-     order.printOrderInfo();
-    } */
     public Order placeOrder(int orderId) {
-    // Implementation of placing the order...
+   
     Order order = new Order(customerId, orderId, products , calculatePrice());
     return order;
 }
