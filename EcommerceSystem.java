@@ -62,7 +62,7 @@ public class EcommerceSystem {
             JOptionPane.showMessageDialog(null, "Here's your order's summary");
             order.printOrderInfo();
         } else {
-            JOptionPane.showMessageDialog(null, "Thank you for your visit!");
+            JOptionPane.showMessageDialog(null, "Thank you <3");
         
             } 
     }
